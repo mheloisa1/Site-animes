@@ -1,0 +1,43 @@
+*{
+    background-color: #FBFBEF;
+    font-family: "krona one", sans-serif;
+}
+
+a{    
+    color: #333;
+    text-decoration: none;
+    border-radius: 7px;
+    gap: 10px;
+    padding: auto;
+    font-size: medium;
+}
+
+a:hover{
+    border-radius: 7px;
+    gap: 5px;
+    color: #A32CC2;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+
+.logo{
+    width: 100px;
+    height: auto;
+    border: 1px solid #E0E0E0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+
